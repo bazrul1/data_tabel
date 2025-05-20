@@ -34,6 +34,18 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.3.5  # সর্বশেষ ভার্সন ব্যবহার করুন
+
+flutter_native_splash:
+  color: "#ffffff"                    # ব্যাকগ্রাউন্ড কালার
+  image: assets/1000036703.jpg
+  android_12:
+    image: assets/1000036703.jpg     # Android 12+ এর জন্য আলাদা ইমেজ
+    icon_background_color: "#ffffff"
+    android: true
+  ios: true # (নতুন ভার্সনটি ব্যবহার করুন)
+
+
 
 dev_dependencies:
   flutter_test:
@@ -51,6 +63,9 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+  - assets/1000036703.jpg
+
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
