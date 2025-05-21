@@ -38,12 +38,17 @@ dependencies:
 
 flutter_native_splash:
   color: "#ffffff"                    # ব্যাকগ্রাউন্ড কালার
-  image: assets/1000036703.jpg
+  branding: null
+  android_gravity: center         # Android এর জন্য logo center এ রাখবে
+  ios_content_mode: center
+  image: assets/Logo Sobuj.png
+  
   android_12:
-    image: assets/1000036703.jpg     # Android 12+ এর জন্য আলাদা ইমেজ
+    image: assets/Logo Sobuj.png     # Android 12+ এর জন্য আলাদা ইমেজ
     icon_background_color: "#ffffff"
     android: true
   ios: true # (নতুন ভার্সনটি ব্যবহার করুন)
+   
 
 
 
@@ -64,7 +69,7 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
   assets:
-  - assets/1000036703.jpg
+  - assets/Logo Sobuj.png
 
 
   # The following line ensures that the Material Icons font is
